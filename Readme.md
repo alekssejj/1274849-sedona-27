@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Aleksej Merenjuk](https://up.htmlacademy.ru/htmlcss/27/user/1274849).
-* Наставник: Ирина Малиновская`.
+* Наставник: Ирина Малиновская`https://htmlacademy.ru/profile/irina-malinovskaya
 
 ---
 
