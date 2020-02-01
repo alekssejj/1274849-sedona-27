@@ -1,32 +1,34 @@
 
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+ <head>
   <meta charset="utf-8">
   <title> HTML Academy - Sedona  </title>
   <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-<div class="cover">
+ </head>
+  <body>
+     <div class="cover">
   <header>
-    <a class="logo" href="./index.html">
+     <a class="logo" href="./index.html">
       <img src="#" alt="Седона">
-    </a>
+     </a>
+
     <ul class="main-navigation">
       <li class="left">
         <a href="#">Информация</a>
       </li>
         <li class="left">
-      <a href="#">Фото и видео</a>
-    </li>
+        <a href="#">Фото и видео</a>
+      </li>
         <li class="right">
-      <a href="#">Карта штата</a>
-    </li>
+        <a href="#">Карта штата</a>
+      </li>
         <li class="right">
-      <a class="current" href="#">Гостиницы</a>
-    </li>
+        <a class="current" href="#">Гостиницы</a>
+     </li>
     </ul>
   </header>
+
   <main class="catalog-main">
     <section class="filter">
       <form class="filter-menu" action="https://echo.htmlacademy.ru" method="post">
@@ -36,31 +38,37 @@
             <input type="checkbox" id="pool" name="waterpool" checked>
             <label for="pool">Бассейн</label>
           </div>
+
           <div class="check">
             <input type="checkbox" id="parking" name="parking-place">
             <label for="parking">Парковка</label>
           </div>
+
           <div class="check">
             <input type="checkbox" id="wi-fi" name="internet">
             <label for="wi-fi">Wi-Fi</label>
           </div>
         </div>
+
           <div class="one-fourth">
         <h2>Тип жилья:</h2>
         <div class="check">
           <input type="checkbox" id="hotel" name="hotel-room" checked>
           <label for="hotel">Гостиница</label>
         </div>
+
         <div class="check">
           <input type="checkbox" id="motel" name="motel-room" checked>
           <label for="motel">Мотель</label>
         </div>
+
         <div class="check">
           <input type="checkbox" id="apartment" name="flat" checked>
           <label for="apartment">Апартаменты</label>
         </div>
       </div>
-          <div class="two-fourth clearfix">
+
+          <div class="two-fourth flexbox">
         <div class="filter-range">
           <h2>Стоимость в сутки (Р):</h2>
           <div class="price-controls">
@@ -71,6 +79,7 @@
             До <input type="text" name="max-price" value="3000">
           </label>
           </div>
+
           <div class="range-controls">
             <div class="scale">
               <div class="bar"></div>
@@ -83,6 +92,7 @@
       </div>
       </form>
     </section>
+
     <section class="results">
       <div class="match">
         <span>Найдено: 3</span>
@@ -93,21 +103,19 @@
       <li>
         <a class="current" href="#">По цене</a>
       </li>
-            <li>
+       <li>
       <a href="#">По типу</a>
     </li>
-            <li>
+       <li>
       <a href="#">По рейтингу</a>
     </li>
     </ul>
     </div>
         <div class="sorting-btns">
-      <a href="#">
-        <div class="icon-up-dir"></div>
-      </a>
+         <a href="#">
+         </a>
           <a class="current" href="#">
-      <div class="icon-down-dir"></div>
-    </a>
+         </a>
     </div>
     </section>
     <ul>
@@ -115,6 +123,7 @@
         <div class="photo">
           <img src="#" alt="Amara Resort &amp; SPA">
         </div>
+
         <div class="hotel-container">
           <h2 class="hotel-title">
             <a href="#">Amara Resort &amp; SPA</a>
@@ -123,11 +132,13 @@
             <span>Гостиница</span>
             <a class="btn more-btn" href="#">Подробнее</a>
           </div>
+
           <div class="reserve">
             <span>От 3500 р.</span>
             <a class="btn reserve-btn" href="#">Забронировать</a>
           </div>
         </div>
+
         <div class="ratio-block">
           <div class="stars">
             <span class="icon-star"></span>
@@ -139,6 +150,7 @@
         </div>
       </li>
       <li>
+
         <div class="photo">
           <img src="#" alt="Desert Quail Inn">
         </div>
@@ -150,11 +162,13 @@
             <span>Мотель</span>
             <a class="btn more-btn" href="#">Подробнее</a>
           </div>
+
           <div class="reserve">
             <span>От 2000 р.</span>
             <a class="btn reserve-btn" href="#">Забронировать</a>
           </div>
         </div>
+
         <div class="ratio-block">
           <div class="stars">
             <span class="icon-star"></span>
@@ -167,6 +181,7 @@
         <div class="photo">
           <img src="#" alt="Villas at Poco Diablo">
         </div>
+
         <div class="hotel-container">
           <h2 class="hotel-title">
             <a href="#">Villas at Poco Diablo</a>
@@ -175,36 +190,41 @@
             <span>Апартаменты</span>
             <a class="btn more-btn" href="#">Подробнее</a>
           </div>
+
           <div class="reserve">
             <span>От 4000 р.</span>
             <a class="btn reserve-btn" href="#">Забронировать</a>
           </div>
         </div>
-        <div class="ratio-block clearfix">
-          <div class="stars">
+
+        <div class="ratio-block flexbox">
+            <div class="stars">
             <span class="icon-star"></span>
             <span class="icon-star"></span>
             <span class="icon-star"></span>
           </div>
-          <span class="ratio">Рейтинг: 9,2</span>
-        </div>
+            <span class="ratio">Рейтинг: 9,2</span>
+          </div>
       </li>
     </ul>
   </main>
+
   <footer>
-    <div class="one-third">
-      <a class="insta" href="#">#visitsedona</a>
+       <div class="one-third">
+       <a class="social" href="#">#visitsedona</a>
     </div>
       <div class="one-third social-btns">
-    <a class="social" href="#">Twitter<span class="icon-twitter"></span></a>
+        <a class="social" href="#">Twitter<span class="icon-twitter"></span></a>
         <a class="social" href="#">Facebook<span class="icon-facebook"></span></a>
         <a class="social" href="#">Youtube<span class="icon-youtube"></span></a>
-  </div>
-     <div class="one-third developer">
-    <span>Website by</span>
-    <a class="sprite academy" href="https://htmlacademy.ru/">HTML academy</a>
-  </div>
+      </div>
+
+       <div class="one-third developer">
+       <span>Website by</span>
+       <a class="sprite academy" href="https://htmlacademy.ru/">HTML academy</a>
+      </div>
+
   </footer>
-</div>
-</body>
+      </div>
+  </body>
 </html>
