@@ -6,3 +6,24 @@
   position: absolute;
   left: 50%;
 }
+
+.house img{
+  background-color:
+  background-image: url("/img/icon-1.svg");
+  width: 75px;
+  height:72px;
+}
+
+.food img{
+  background-color:
+  background-image: url("/img/icon-2.svg");
+  width: 74px;
+  height:70px;
+}
+
+.gift img{
+  background-color:
+  background-image: url("/img/icon-3.svg");
+  width:  64px;
+  height: 76px;
+}
