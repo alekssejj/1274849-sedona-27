@@ -1,3 +1,36 @@
+html,
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: "PT Sans", Arial sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style-type: none;
+
+  background-image: url("../img/mountains.jpg");
+  width: 1200px;
+  height: 773px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+
+
+
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+  width: auto;
+  text-align: center;
+}
+
+
+
+
 .social-btns img{
   background-color: #81b3d2;
   padding: 8px;
