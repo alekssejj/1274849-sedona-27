@@ -9,28 +9,29 @@
   <body>
      <div class="cover">
   <header>
-     <a class="logo" href="./index.html">
-       <img src="img/logo-sedona.svg" alt="Седона" width="138" height="70">
-     </a>
-
-    <ul class="main-navigation">
-      <li class="left">
-        <a href="#">Информация</a>
-      </li>
+    <a class="logo" href="index.html">
+      <img src="img/logo-sedona.svg" alt="Седона" width="138" height="70">
+    </a>
+    <nav class="mein-navigation">
+      <ul class="navigation">
         <li class="left">
-        <a href="#">Фото и видео</a>
-      </li>
+          <a href="inner.html">Информация</a>
+        </li>
+        <li class="left">
+          <a href="inner.html">Фото и видео</a>
+        </li>
         <li class="right">
-        <a href="#">Карта штата</a>
-      </li>
+          <a href="inner.html">Карта штата</a>
+        </li>
         <li class="right">
-        <a class="current" href="#">Гостиницы</a>
+          <a href="inner.html">Гостиницы</a>
      </li>
     </ul>
+    </nav>
   </header>
 
   <main class="catalog-main">
-    <section class="filter">
+    <fieldset class="filter mountains-filter">
       <form class="filter-menu" action="https://echo.htmlacademy.ru" method="post">
         <div class="one-fourth">
           <h2>Инфраструктура:</h2>
@@ -121,7 +122,7 @@
         </div>
       </div>
       </form>
-    </section>
+    </fieldset>
 
     <section class="results">
         <span class="match">Найдено: 3</span>
