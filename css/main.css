@@ -73,19 +73,28 @@ body {
   height: 440px;
 }
 
-.find-btn {
-  display: block;
-  height: 58px;
-  margin: 30px auto 0;
-  padding: 16px;
-  font-weight: 700;
+
+
+.baton  {
   font-size: 21px;
-  line-height: 26px;
-  color: #fff;
-  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.baton a {
+  padding: 17px 197px 22px 196px;
   background-color: #81b3d2;
-  border: none;
-  outline: none;
+  color: white;
+
+
+}
+
+.baton a:hover{
+  background-color: #669ebf;
+}
+.baton a:active {
+  background-color: #5596be;
 }
 
 
@@ -105,18 +114,22 @@ a{
 .features{
   background-color: #ffffff;
   width: 1200px;
-  height: 215px;
 
 
 }
 .text-center {
   width: auto;
   text-align: center;
+  padding: 61px 380px 107px 380px;
+
 }
 
 .one-third{
   width: auto;
   text-align: center;
+  display: inline-block;
+  padding-left: 185px;
+  padding-top: 36px;
 }
 
 img{
@@ -129,7 +142,17 @@ img{
 .social-btns img{
   background-color: #81b3d2;
   padding: 8px;
+  width: 46px;
+  height: 48px;
+  margin: 6px;
 }
+ul.social-btns {
+  margin: 0;
+}
+ul.social-btns li {
+  display: inline;
+}
+
 .logo{
   position: absolute;
   left: 47%;
@@ -161,21 +184,89 @@ input[type="range"]::-moz-range-thumb {
 input[type="range"]::-ms-thumb {
   pointer-events: all;
 }
+.advertisement>.view-image.two-third{
+  grid-column: 2;
+  margin: 0;
+  height: 300px;
+  overflow: hidden;
+}
 
-.text-content_house{
-  background-image: url("../img/icon-1.svg");
-  width: 75px;
-  height: 72px;
-  background-repeat: no-repeat;
-  background-position: top center;
+.advertisement>.view-image.two-third img{
+  width: 100%;
+  height: auto;
 }
-text-content_food{
-  background-image: url("../img/icon-2.svg");
-  width: 74px;
-  height: 70px;
+
+section.advertisement{
+  display: grid;
 }
-text-content_gift{
-  background-image: url("../img/icon-3.svg");
-  width: 64px;
-  height: 76px;
+
+.advertisement > .text-content.one-third{
+  grid-column: 1;
+  background-color: #81b3d2;
+  vertical-align: middle;
+}
+.advertisement > .text-content.one-third > p{
+  color: white;
+}
+.advertisement > .text-content.one-third > span{
+  color: white;
+}
+.advertisement > .text-content.one-third > h2{
+  color: white;
+}
+.text-content.one-third{
+  padding: 46px 60px 64px 60px;
+}
+
+
+
+.text-content {
+
+  display: inline-block;
+  width: 397px;
+}
+.house{
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.food{
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.gift{
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+section.canyon{
+  display: grid;
+  margin-top: 85px;
+}
+
+.canyon > .text-content.one-third{
+  grid-column: 2;
+  background-color: #81b3d2;
+  vertical-align: middle;
+  padding-top: 70px;
+
+
+}
+.canyon > .text-content.two-third{
+  grid-column: 1;
+  overflow: hidden;
+}
+
+.canyon > .text-content.one-third > p{
+  color: white;
+}
+.canyon > .text-content.one-third > span{
+  color: white;
+}
+.canyon > .text-content.one-third > h2{
+  color: white;
 }
